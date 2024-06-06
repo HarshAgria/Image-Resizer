@@ -27,13 +27,13 @@ YoYo Image Resizer is a simple Python-based tool to resize images using OpenCV a
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/yoyo-image-resizer.git
+    git clone https://github.com/HarshAgria/Image-Resizer.git
     ```
 
 2. Navigate to the project directory:
 
     ```sh
-    cd yoyo-image-resizer
+    cd image_resizer
     ```
 
 3. Install the required dependencies:
@@ -50,7 +50,7 @@ To use the YoYo Image Resizer, follow these steps:
 2. Run the script:
 
     ```sh
-    python resizer.py
+    python image_resizer.py
     ```
 
 3. Follow the voice-guided instructions:
