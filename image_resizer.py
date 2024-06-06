@@ -15,7 +15,6 @@ s.Speak("Enter the percentage up to which you want to resize the image source :"
 scale_percent=int(input(f"Enter the percentage up to which you want to resize the image {source} :"))
 
 src= cv2.imread(source,cv2.IMREAD_UNCHANGED)
-# cv2.imshow("title",src)
 
 # Calcutating the scale_percent of the source image
 new_width = int(src.shape[1] * scale_percent/100)
@@ -26,9 +25,7 @@ new_height = int(src.shape[0] * scale_percent/100)
 
 # Resize image
 output =cv2.resize(src,(new_width,new_height))
-# output =cv2.resize(src,(dsize))
 
 cv2.imwrite(destination,output)
 s.Speak(f"The output resized image will be created in the same directory as that of {source}")
 print((f"The output resized image will be created in the same directory as that of {source}"))
-# cv2.waitKey(0)
